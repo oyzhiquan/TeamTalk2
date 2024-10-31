@@ -1,10 +1,581 @@
-﻿Build started 2017/5/16 21:39:30.
-     1>Project "F:\mycode\TeamTalk\win-client\3rdParty\src\libspeex\libspeex\libspeex.vcxproj" on node 2 (Build target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(F:\mycode\TeamTalk\win-client\solution\\..\bin\teamtalk\Debug\libspeex.lib) does not match the Library's OutputFile property value (F:\mycode\TeamTalk\win-client\lib\Debug\libspeex.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
-     1>Lib:
-         libspeex.vcxproj -> F:\mycode\TeamTalk\win-client\solution\\..\bin\teamtalk\Debug\libspeex.lib
-     1>Done Building Project "F:\mycode\TeamTalk\win-client\3rdParty\src\libspeex\libspeex\libspeex.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.07
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  window.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\window.c(71,37): warning C4305: “初始化”: 从“double”到“const spx_word16_t”截断
+  vq.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vq.c(76,152): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vq.c(110,157): warning C4100: “stack”: 未引用的形参
+  vbr.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(83,24): warning C4305: “=”: 从“double”到“float”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(88,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(89,30): warning C4305: “=”: 从“double”到“float”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(95,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(142,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(149,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(152,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(154,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(170,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(171,62): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(180,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(181,59): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(187,17): warning C4305: “-=”: 从“double”到“float”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(189,18): warning C4305: “-=”: 从“double”到“float”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(191,18): warning C4305: “-=”: 从“double”到“float”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(194,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(195,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(204,20): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(206,20): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(211,20): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(218,41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(219,15): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(222,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(240,19): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(247,19): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(249,19): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(252,17): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(124,67): warning C4100: “pitch”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\vbr.c(271,28): warning C4100: “vbr”: 未引用的形参
+  testjitter.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testjitter.c(17,12): warning C4057: “=”:“char *”与“unsigned char *”在稍微不同的基类型间接寻址上不同
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testjitter.c(21,18): warning C4244: “=”: 从“int”转换到“spx_uint16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testjitter.c(42,24): warning C4389: “!=”: 有符号/无符号不匹配
+  testenc_wb.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc_wb.c(123,15): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc_wb.c(131,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc_wb.c(76,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc_wb.c(78,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc_wb.c(82,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  testenc_uwb.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc_uwb.c(120,15): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc_uwb.c(128,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc_uwb.c(72,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc_uwb.c(74,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc_uwb.c(78,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  testenc.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc.c(127,15): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc.c(132,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc.c(73,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc.c(75,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testenc.c(79,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  testecho.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testecho.c(30,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testecho.c(31,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\testecho.c(32,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  testdenoise.c
+  stereo.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“stereo.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“stereo.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“stereo.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“stereo.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(117,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(127,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(134,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(170,20): warning C4244: “=”: 从“double”转换到“spx_int16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(195,24): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(196,13): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(197,15): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(212,19): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(286,11): warning C4244: “=”: 从“unsigned int”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(288,22): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\stereo.c(274,68): warning C4100: “state”: 未引用的形参
+  speex_header.c
+  speex_callbacks.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(75,66): warning C4100: “state”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(83,70): warning C4100: “state”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(91,71): warning C4100: “state”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(100,65): warning C4100: “state”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(109,65): warning C4100: “state”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(121,11): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(118,73): warning C4100: “state”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(130,9): warning C4244: “=”: 从“unsigned int”转换到“unsigned char”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(127,58): warning C4100: “state”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(139,75): warning C4100: “data”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\speex_callbacks.c(139,62): warning C4100: “state”: 未引用的形参
+  speex.c
+  smallft.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\smallft.c(101,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\smallft.c(102,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\smallft.c(285,7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\smallft.c(286,7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\smallft.c(855,7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\smallft.c(856,7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  scal.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“scal.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“scal.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“scal.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“scal.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\scal.c(106,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\scal.c(148,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\scal.c(175,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\scal.c(177,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\scal.c(179,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\scal.c(201,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\scal.c(203,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\scal.c(205,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\scal.c(265,35): warning C4244: “=”: 从“float”转换到“spx_int16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\scal.c(152,11): warning C4189: “N”: 局部变量已初始化但不引用
+  sb_celp.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“sb_celp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“sb_celp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“sb_celp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“sb_celp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(128,48): warning C4305: “初始化”: 从“double”到“const spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(131,50): warning C4305: “初始化”: 从“double”到“const spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(411,59): warning C4305: “函数”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(414,64): warning C4305: “函数”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(435,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(437,30): warning C4305: “=”: 从“double”到“float”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(439,31): warning C4305: “=”: 从“double”到“float”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(449,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(461,35): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(484,49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(569,61): warning C4305: “函数”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(570,62): warning C4305: “函数”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(592,28): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(656,18): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(1002,62): warning C4305: “函数”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(1022,31): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(1032,13): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(1048,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(1089,20): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(1181,19): warning C4244: “=”: 从“spx_int32_t”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(1286,39): warning C4127: 条件表达式是常量
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\sb_celp.c(1148,37): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  resample.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(294,56): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(294,41): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(324,38): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(412,40): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(528,119): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(595,20): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(676,23): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(684,23): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(687,20): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(694,23): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(860,21): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(863,20): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(916,19): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(923,19): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(933,16): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\resample.c(937,31): warning C4244: “=”: 从“double”转换到“spx_int16_t”，可能丢失数据
+  quant_lsp.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(82,23): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(90,27): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(171,15): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(175,26): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(206,23): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(217,14): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(222,16): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(226,16): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(230,16): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(234,18): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(238,18): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(254,15): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(257,22): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(276,24): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(287,14): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(292,17): warning C4244: “+=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(296,17): warning C4244: “+=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(300,19): warning C4244: “+=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(340,15): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(343,24): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(359,24): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(371,14): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(376,17): warning C4244: “+=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\quant_lsp.c(381,17): warning C4244: “+=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+  preprocess.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“preprocess.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“preprocess.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“preprocess.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“preprocess.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(281,13): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(284,12): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(365,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(370,29): warning C4244: “return”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(372,68): warning C4244: “return”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(386,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(387,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(391,103): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(446,33): warning C4244: “函数”: 从“int”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(510,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(516,24): warning C4305: “=”: 从“double”到“float”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(519,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(520,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(508,43): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(581,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(587,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(588,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(595,41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(721,84): warning C4100: “echo”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(744,11): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(829,43): warning C4244: “函数”: 从“spx_word16_t”转换到“int”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(868,21): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(918,75): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(930,75): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(971,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(987,28): warning C4244: “=”: 从“spx_word16_t”转换到“spx_int16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(989,26): warning C4244: “=”: 从“spx_word16_t”转换到“spx_int16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1081,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1084,30): warning C4244: “=”: 从“double”转换到“spx_int32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1087,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1090,30): warning C4244: “=”: 从“double”转换到“spx_int32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1093,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1096,30): warning C4244: “=”: 从“double”转换到“spx_int32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1139,30): warning C4244: “=”: 从“spx_word16_t”转换到“spx_int32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1147,30): warning C4244: “=”: 从“spx_word16_t”转换到“spx_int32_t”，可能丢失数据
+  nb_celp.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1176,30): warning C4244: “=”: 从“double”转换到“spx_int32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1179,30): warning C4244: “=”: 从“double”转换到“spx_int32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1195,30): warning C4244: “=”: 从“spx_word16_t”转换到“spx_int32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1199,24): warning C4244: “=”: 从“spx_int32_t”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\preprocess.c(1206,32): warning C4244: “=”: 从“float”转换到“spx_int32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“nb_celp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“nb_celp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“nb_celp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“nb_celp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(437,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(439,31): warning C4305: “=”: 从“double”到“float”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(441,32): warning C4305: “=”: 从“double”到“float”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(508,49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(593,23): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(604,21): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(623,28): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1016,38): warning C4305: “初始化”: 从“double”到“const spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1047,21): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1057,33): warning C4244: “函数”: 从“int”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1068,27): warning C4305: “函数”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1242,16): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1266,21): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1277,28): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1364,16): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1565,29): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1629,19): warning C4244: “=”: 从“spx_int32_t”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\nb_celp.c(1860,41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  modes_wb.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\modes_wb.c(180,39): warning C4305: “初始化”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\modes_wb.c(226,40): warning C4305: “初始化”: 从“double”到“spx_word16_t”截断
+  modes.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\modes.c(193,41): warning C4305: “初始化”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\modes.c(214,41): warning C4305: “初始化”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\modes.c(235,41): warning C4305: “初始化”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\modes.c(256,41): warning C4305: “初始化”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\modes.c(277,41): warning C4305: “初始化”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\modes.c(298,41): warning C4305: “初始化”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\modes.c(320,36): warning C4305: “初始化”: 从“double”到“spx_word16_t”截断
+  mdf.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“mdf.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“mdf.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“mdf.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“mdf.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(200,25): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(368,17): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(479,25): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(489,37): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(505,33): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(507,42): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(509,44): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(511,44): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(488,28): warning C4244: “初始化”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(686,133): warning C4100: “Yout”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(718,10): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(730,23): warning C4456: “tmp32”的声明隐藏了上一个本地声明
+  G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(706,17):
+  参见“tmp32”的声明
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(756,23): warning C4456: “tmp32”的声明隐藏了上一个本地声明
+  G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(706,17):
+  参见“tmp32”的声明
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(984,26): warning C4244: “=”: 从“double”转换到“spx_int16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1076,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1121,64): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1149,19): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1151,47): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1167,24): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1186,46): warning C4244: “=”: 从“int”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1225,39): warning C4244: “=”: 从“spx_int32_t”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1196,83): warning C4100: “len”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1248,48): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1250,50): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1252,50): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\mdf.c(1276,30): warning C4244: “=”: 从“spx_word32_t”转换到“spx_int32_t”，可能丢失数据
+  ltp.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“ltp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“ltp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“ltp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“ltp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(142,115): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(479,15): warning C4244: “*=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(480,15): warning C4244: “*=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(481,15): warning C4244: “*=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(492,50): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(493,50): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(494,50): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(502,11): warning C4456: “j”的声明隐藏了上一个本地声明
+  G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(370,10):
+  参见“j”的声明
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(503,11): warning C4456: “tmp1”的声明隐藏了上一个本地声明
+  G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(371,4):
+  参见“tmp1”的声明
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(367,5): warning C4100: “scaledown”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(359,12): warning C4100: “bits”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(638,49): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(538,14): warning C4100: “pitch_coef”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(694,46): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(695,48): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(696,48): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(710,20): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(712,21): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(708,44): warning C4244: “初始化”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(666,7): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(660,14): warning C4100: “pitch_coef”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(659,7): warning C4100: “end”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(786,21): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(775,15): warning C4100: “cumul_gain”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(774,5): warning C4100: “plc_tuning”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(773,5): warning C4100: “cdbk_offset”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(772,5): warning C4100: “complexity”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(771,15): warning C4100: “r”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(768,12): warning C4100: “bits”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(764,7): warning C4100: “end”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(762,13): warning C4100: “par”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(757,15): warning C4100: “sw”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(829,21): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(820,5): warning C4100: “cdbk_offset”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(819,14): warning C4100: “last_pitch_gain”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(818,5): warning C4100: “subframe_offset”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(817,5): warning C4100: “count_lost”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(816,7): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(815,12): warning C4100: “bits”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(811,13): warning C4100: “par”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\ltp.c(809,7): warning C4100: “end”: 未引用的形参
+  lsp_tables_nb.c
+  lsp.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“lsp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“lsp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“lsp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“lsp.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\lsp.c(196,10): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\lsp.c(177,77): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\lsp.c(335,20): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\lsp.c(362,28): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\lsp.c(377,19): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\lsp.c(522,66): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\lsp.c(634,29): warning C4244: “=”: 从“double”转换到“spx_lsp_t”，可能丢失数据
+  lpc.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\lpc.c(99,13): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  kiss_fftr.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“kiss_fftr.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“kiss_fftr.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“kiss_fftr.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“kiss_fftr.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\kiss_fftr.c(129,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\kiss_fftr.c(130,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\kiss_fftr.c(131,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\kiss_fftr.c(132,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  kiss_fft.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“kiss_fft.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“kiss_fft.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“kiss_fft.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“kiss_fft.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\kiss_fft.c(197,30): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\kiss_fft.c(198,30): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\kiss_fft.c(363,13): warning C4100: “s2”: 未引用的形参
+  jitter.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\jitter.c(128,24): warning C4244: “=”: 从“int”转换到“spx_int16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\jitter.c(203,64): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\jitter.c(236,25): warning C4244: “=”: 从“float”转换到“spx_int32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\jitter.c(241,19): warning C4244: “=”: 从“int”转换到“spx_int16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\jitter.c(352,35): warning C4244: “函数”: 从“spx_int32_t”转换到“spx_int16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\jitter.c(447,20): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\jitter.c(696,20): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\jitter.c(716,103): warning C4100: “start_offset”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\jitter.c(716,82): warning C4100: “packet”: 未引用的形参
+  high_lsp_tables.c
+  hexc_table.c
+  hexc_10_32_table.c
+  gain_table_lbr.c
+  gain_table.c
+  filters.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“filters.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“filters.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“filters.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“filters.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(308,11): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(319,143): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(339,117): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(359,117): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(406,140): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(441,140): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(477,164): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(735,16): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(736,16): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(737,14): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(767,24): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(768,14): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(789,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(790,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(792,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(793,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(662,7): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(657,5): warning C4100: “p”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filters.c(656,13): warning C4100: “ak”: 未引用的形参
+  filterbank.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“filterbank.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“filterbank.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“filterbank.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“filterbank.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filterbank.c(63,14): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filterbank.c(83,13): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\filterbank.c(54,75): warning C4100: “type”: 未引用的形参
+  fftwrap.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\fftwrap.c(103,23): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\fftwrap.c(109,23): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  exc_8_128_table.c
+  exc_5_64_table.c
+  正在生成代码...
+  正在编译...
+  exc_5_256_table.c
+  exc_20_32_table.c
+  exc_10_32_table.c
+  exc_10_16_table.c
+  cb_search.c
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(57,21): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“cb_search.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(91,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“cb_search.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(116,11): warning C4244: “return”: 从“int”转换到“spx_int16_t”，可能丢失数据
+  (编译源文件“cb_search.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\math_approx.h(323,15): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+  (编译源文件“cb_search.c”)
+  
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(53,192): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(53,125): warning C4100: “resp2”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(195,45): warning C4244: “=”: 从“double”转换到“spx_sig_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(216,24): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(439,27): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(493,42): warning C4244: “=”: 从“double”转换到“spx_sig_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(567,42): warning C4244: “+=”: 从“double”转换到“spx_sig_t”，可能丢失数据
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(520,14): warning C4100: “seed”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(519,7): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(517,7): warning C4100: “nsf”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(585,7): warning C4100: “update_target”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(584,7): warning C4100: “complexity”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(582,12): warning C4100: “bits”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(581,15): warning C4100: “r”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(577,13): warning C4100: “par”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(604,7): warning C4100: “stack”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(603,12): warning C4100: “bits”: 未引用的形参
+G:\github\git\TeamTalk2\win-client\3rdParty\src\libspeex\libspeex\cb_search.c(601,13): warning C4100: “par”: 未引用的形参
+  buffer.c
+  bits.c
+  正在生成代码...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1574,5): warning MSB8012: TargetPath(G:\github\git\TeamTalk2\win-client\bin\teamtalk\Debug\libspeex.lib) 与 Library 的 OutputFile 属性值(G:\github\git\TeamTalk2\win-client\lib\Debug\libspeex.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+testenc_wb.obj : warning LNK4006: _main 已在 testjitter.obj 中定义；已忽略第二个定义
+testenc_uwb.obj : warning LNK4006: _main 已在 testjitter.obj 中定义；已忽略第二个定义
+testenc.obj : warning LNK4006: _main 已在 testjitter.obj 中定义；已忽略第二个定义
+testecho.obj : warning LNK4006: _main 已在 testjitter.obj 中定义；已忽略第二个定义
+testdenoise.obj : warning LNK4006: _main 已在 testjitter.obj 中定义；已忽略第二个定义
+  libspeex.vcxproj -> G:\github\git\TeamTalk2\win-client\bin\teamtalk\Debug\libspeex.lib
